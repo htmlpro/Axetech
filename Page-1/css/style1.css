@@ -1,0 +1,108 @@
+:root {
+	--blue: #3564ff;
+	--primary: #3564ff;
+	--secondary: #363636;
+	--white: #fff;
+	--orange: #ff6600;
+	--black: #000;
+	--font-family-sans-serif: "Open Sans", sans-serif;
+}
+
+@font-face {
+	font-family: 'icomoon';
+	src: url("../fonts/icomoon.woff?jumltq");
+	src: url('../fonts/icomoon.woff?jumltq') format('woff'),
+		url('../fonts/icomoon.woff2?jumltq') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+	font-family: 'icomoon' !important;
+	/* speak: never; */
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow:before {
+	content: "\e90b";
+}
+
+.icon-quote-top:before {
+	content: "\e909";
+}
+
+.icon-quote-bottom:before {
+	content: "\e90a";
+}
+
+.icon-arrow-right:before {
+	content: "\e900";
+}
+
+.icon-award:before {
+	content: "\e901";
+}
+
+.icon-search:before {
+	content: "\e902";
+}
+
+.icon-minus:before {
+	content: "\e903";
+}
+
+.icon-plus:before {
+	content: "\e904";
+}
+
+.icon-info:before {
+	content: "\e905";
+}
+
+.icon-database:before {
+	content: "\e906";
+}
+
+.icon-clock:before {
+	content: "\e907";
+}
+
+.icon-user:before {
+	content: "\e908";
+}
+
+@font-face {
+	font-family: 'Segoe UI Bold';
+	src: url('../fonts/SegoeUI-Bold.woff2') format('woff2'),
+		url('../fonts/SegoeUI-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Segoe UI';
+	src: url('../fonts/SegoeUI.woff2') format('woff2'),
+		url('../fonts/SegoeUI.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@keyframes slide-right--100 {
+	0% {
+		transform: translate(-100%);
+	}
+
+	to {
+		transform: translate(0);
+	}
+}
